@@ -15,4 +15,10 @@ namespace faker {
     FAKERCPP_EXPORT std::string random_street();
     FAKERCPP_EXPORT std::string random_zip_code();
   }
+
+  namespace person {
+    FAKERCPP_EXPORT std::string first_name();
+    FAKERCPP_EXPORT std::string last_name();
+    FAKERCPP_EXPORT std::string full_name();
+  }
 }

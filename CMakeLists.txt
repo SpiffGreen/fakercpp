@@ -2,9 +2,13 @@ cmake_minimum_required(VERSION 3.15)
 project(fakercpp CXX)
 
 
-
-
-add_library(fakercpp src/fakercpp.cpp src/util.cpp src/location.cpp)
+add_library(
+  fakercpp 
+  src/fakercpp.cpp 
+  src/util.cpp 
+  src/location.cpp
+  src/person.cpp
+)
 target_include_directories(fakercpp PUBLIC include)
 
 

@@ -13,11 +13,18 @@ Generate massive amounts of fake data with fakercpp
 - 🔢 Numerical Data - Additionally, we can generate random numbers and strings as needed.
 
 ## Installation
+
+### With Conan
 To install, add `faker/0.0.1` to your `conanfile.py` or `conanfile.txt` file, then run.
 ```sh
 conan install conanfile.txt --build=missing
 # or
 conan install conanfile.py --build=missing
+```
+
+### Using CMake FetchContent
+```sh
+# Work in Progress
 ```
 
 ## Usage
